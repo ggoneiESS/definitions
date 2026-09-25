@@ -51,7 +51,7 @@
 	<field name="handedness">
 		<doc>
       Direction of measurement for rotation and positions in the disk-chopper.
-      Left is the default for historical reasons and implies positive rotation and angles in an anticlockwise
+      Left was assumed in the past and implies positive rotation and angles in an anticlockwise
       direciton when facing away from the source.
       Right matches the default NeXus coordinate system and implies positive rotation and angles in an anticlockwise
       direction when looking towards the source - positive rotation matches the positive roll of the system.
