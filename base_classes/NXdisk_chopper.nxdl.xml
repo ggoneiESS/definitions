@@ -72,7 +72,7 @@
 	</field>
 	<field name="rotation_speed" type="NX_FLOAT" units="NX_FREQUENCY">
 		<doc>
-			Chopper rotation speed.
+			Chopper rotation speed, in the convention of the handedness of the chopper.
 		</doc>
 	</field>
 	<field name="slits" type="NX_INT">
