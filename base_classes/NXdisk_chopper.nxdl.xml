@@ -55,7 +55,7 @@
       direciton when facing away from the source.
       Right matches the default NeXus coordinate system and implies positive rotation and angles in an anticlockwise
       direction when looking towards the source - positive rotation matches the positive roll of the system.
-      Only one from the enumerated list (match text exactly).
+      Only one from the enumerated list (match text exactly).  If `handness` is not specified, it's likely that downstream consuming applications will assume left-handed.
     </doc>
 		<enumeration>
 			<item value="Left" />
